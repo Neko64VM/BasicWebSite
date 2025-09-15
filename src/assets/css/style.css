@@ -7,10 +7,11 @@ body {
 .frame {
     border: 1px solid rgb(128, 128, 128);
     border-radius: 15px;
-    background-color: rgb(48, 48, 48);
-
+    background-color: rgba(48, 48, 48, 0.985);
+    border-image: linear-gradient(to right, #fa94f1, #a4f7a4) 1;
+    
     /*- サイズ指定 -*/
-    padding: 150px;
+    padding: 125px;
     width: 35%;
 
     /*- 画面中央に持ってくる -*/
@@ -23,6 +24,12 @@ body {
 .my_icon {
     /*- アイコンを円形に -*/
     border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15); 
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.my_icon:hover {
+    transform: scale(1.01);
 }
 
 .short_msg {
