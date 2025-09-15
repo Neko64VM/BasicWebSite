@@ -5,5 +5,9 @@ BIO Link的な用途を想定した非常にシンプルなWebサイト
 - srcフォルダ内にindex.htmlとJavaScriptを記述したファイルがあります。  
 - assetフォルダ内にCSSと画像、particles.jsのjsonファイルが配置されています。  
 
+## Credit
+- https://simpleicons.org/
+- https://fonts.google.com/icons
+
 ## Image
 <img src="page_info.png">
