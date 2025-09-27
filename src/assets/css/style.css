@@ -5,10 +5,11 @@ body {
 }
 
 .frame {
-    border: 1px solid rgb(128, 128, 128);
+    /*border: 1px solid rgb(128, 128, 128);*/
     border-radius: 15px;
-    background-color: rgba(48, 48, 48, 0.985);
-    border-image: linear-gradient(to right, #fa94f1, #a4f7a4) 1;
+    background-color: rgba(255, 255, 255, 0.75);
+    box-shadow: 3px 3px 10px rgb(78, 78, 78, 0.75);
+    /*border-image: linear-gradient(to right, #72a9ad, #518351) 1;*/
     
     /*- サイズ指定 -*/
     padding: 125px;
@@ -32,31 +33,33 @@ body {
     transform: scale(1.01);
 }
 
-.short_msg {
+.short_title {
     font-size: 32px;
     font-weight: 300;
 
     /*- text gradation -*/
-    background: linear-gradient(90deg, #18b1fd 0%, #9982ff 40%, #ff82f5 80%);
+    background: linear-gradient(90deg, #21aaee 0%, #f836ee 50%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-shadow: 1px 1px 3px rgba(136, 136, 136, 0.15);
 }
 
 .social_list {
     padding-top: 15px;
 }
 
+/*- アイコンの色とか -*/
 .social_list svg {
     display: inline-block;
     margin-right: 20px;
     cursor: pointer;
     height: 32px;
-    fill: #d3d3d3;
+    fill: #5f5f5f;
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .social_list svg:hover  {
-    fill: #f8f8f8;
+    fill: #4e4e4e;
     transform: scale(1.1);
 }
 
