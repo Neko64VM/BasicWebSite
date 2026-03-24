@@ -1,5 +1,5 @@
 ---
-layout: layout.njk
+layout: post.njk
 title: 最初の記事
 description: サイトを拡張しました
 date: 2026-03-24
