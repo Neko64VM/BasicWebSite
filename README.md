@@ -1,13 +1,6 @@
-# BasicWebSite
-BIO Link的な用途を想定した非常にシンプルなWebサイト  
+# NekoHomePage
+インターネット黎明期に流行った個人用サイトを平均的な現代のWebサイトらしく近代化したもの。自分用。
 
-## 構成
-- srcフォルダ内にindex.htmlとJavaScriptを記述したファイルがあります。  
-- assetフォルダ内にCSSと画像、particles.jsのjsonファイルが配置されています。  
-
-## Credit
-- https://simpleicons.org/
-- https://fonts.google.com/icons
-
-## Image
-<img src="page_info.png">
+## MISC
+Framework: Eleventy
+機能: Markdown based Blog and Profile

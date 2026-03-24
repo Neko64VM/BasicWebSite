@@ -1,0 +1,29 @@
+---
+layout: layout.njk
+title: Neko's blog
+---
+<div class="blog-list">
+    <h1 class="section-title">Blog</h1>
+    {%- for post in collections.post -%}
+    <div class="content-frame">
+        <div class="text-area">
+            <a href="{{ post.url }}" class="click-overlay"></a>
+            <div class="post-overview">
+                <p class="text-title">{{ post.data.title }}</p>
+                <hr class="sep">
+                <p class="text-description">{{ post.data.description }}</p>
+            </div>
+            <div class="post-status">
+                <p class="text-date">{{ post.date.toLocaleDateString() }}</p>
+                <p class="text-date">{{ post.templateContent | wordCount }} 文字</p>
+                <p class="text-date">{{ (post.templateContent | wordCount / 400) | round }} 分</p>
+            </div>
+        </div>
+        <!--サムネを右寄せ、
+        <div class="thumbnail-area">
+            <p>サムネ画像</p>
+            <img src="{{ post.data.thumbnail }}" alt="thumbnail" width="100%" height="auto">
+        </div>-->
+    </div>
+    {%- endfor -%}
+</div>
