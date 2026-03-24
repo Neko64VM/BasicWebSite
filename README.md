@@ -4,3 +4,10 @@
 ## MISC
 Framework: Eleventy  
 機能: Markdown based Blog and Profile  
+
+## Credit
+- Eleventy
+- Claude Code
+- Cloudflare
+- https://simpleicons.org/
+- https://fonts.google.com/icons
