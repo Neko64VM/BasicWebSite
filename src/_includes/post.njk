@@ -1,0 +1,15 @@
+---
+layout: layout.njk
+---
+
+<div class="post-frame">
+    <head><link rel="stylesheet" href="/_css/post.css"></head>
+    <div class="post-info">
+        <h1 class="post-title">{{ title }}</h1>
+        <p>{{ description }}</p>
+        <time class="post-date">{{date}}</time>
+    </div>
+    <div class="post">
+        {{ content | safe }}
+    </div>
+</div>
