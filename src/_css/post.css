@@ -20,15 +20,15 @@
 
 .post-title {
     font-size: 2em;
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
 }
 
 .post-date {
     font-size: 0.9em;
-    color: #888;
+    color: #666;
     margin-bottom: 1.5em;
 }
 
 .post {
-    color: #252525;
+    color: #333;
 }

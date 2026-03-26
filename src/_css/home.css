@@ -1,8 +1,9 @@
-.section-frame {
+.sub-frame {
     display: flex;
     flex-direction: column;
     min-height: 85vh;
     padding: 3rem;
+    gap: 1.5rem;
     border-radius: 10px;
     box-shadow: 3px 3px 10px rgba(78, 78, 78, 0.3);
     background-color: rgb(240, 240, 240);
@@ -13,20 +14,19 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    gap: 1.5rem;
 }
 
-.my_icon {
+.profile-icon {
     border-radius: 50%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
     transition: transform 0.3s ease;
 }
 
-.my_icon:hover {
+.profile-icon:hover {
     transform: scale(1.03);
 }
 
-.short_title {
+.welcome-msg {
     font-size: 32px;
     font-weight: 300;
     background: linear-gradient(90deg, #21aaee 0%, #f836ee 50%);
@@ -34,19 +34,19 @@
     -webkit-text-fill-color: transparent;
 }
 
-.profile-subtitle {
+.profile-name {
     font-size: 15px;
     color: #666;
     margin: 0;
 }
 
-.social_list {
+.social-list {
     display: flex;
     gap: 4px;
     align-items: center;
 }
 
-.social_list svg {
+.social-list svg {
     display: inline-block;
     cursor: pointer;
     height: 32px;
@@ -55,16 +55,12 @@
     transition: transform 0.3s ease, fill 0.3s ease;
 }
 
-.social_list svg:hover {
+.social-list svg:hover {
     fill: #333;
     transform: scale(1.15);
 }
 
 /* ---------- Section 2: About ---------- */
-.section-about {
-    gap: 1.5rem;
-}
-
 .about-intro {
     font-size: 15px;
     color: #444;

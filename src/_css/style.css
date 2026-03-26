@@ -145,8 +145,6 @@ header.hide {
     display: flex;
     flex-direction: column;
     align-content: space-between;
-    width: 70%;
-    max-height: 100%;
 }
 
 .post-overview {
@@ -154,28 +152,19 @@ header.hide {
     flex-direction: column;
 }
 
-.post-status {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    gap: 1rem;
-}
-
-.text-title {
+.post-title {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 0.65rem;
     font-size: 22px;
     font-weight: bold;
     color: #333;
 }
 
-.text-description {
+.post-description {
     font-size: 14px;
-    color: #000000;
 }
 
-.text-date {
+.post-date {
     font-size: 14px;
     margin-bottom: auto;
-    color: #000000;
 }

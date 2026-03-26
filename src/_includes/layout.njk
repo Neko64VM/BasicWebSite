@@ -3,11 +3,26 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/_css/style.css">
         <title>{{ title }}</title>
+        <link rel="stylesheet" href="/_css/style.css">
     </head>
     <body>
-        {% include "header.njk" %}
+        <!-- headerを隠すJavaScript -->
+        <script src="/_assets/javascript/main.js" defer></script>
+        <!-- header本体 -->
+        <header id="header">
+            <div class="container">
+                <nav class="logo">
+                    <img class="menu-icon" src="/_assets/image/Neko64V.png">
+                    <p class="menu-title">nekochan.dev</p>
+                </nav>
+                <ul class="links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/blog/">Blog</a></li>
+                </ul>
+            </div>
+        </header>
+        <!-- main -->
         <div class="base-frame">
             {{ content | safe }}
         </div>
